@@ -1,0 +1,12 @@
+// Player Profile
+// Has a player name attatched
+// pacing can be one of:"decrease-fast, decrease, increase, increase-fast, stay" which represent the difficulty change
+// skill level can be one of: "beginner, novice, experienced, expert, master"
+
+{
+	player:test
+	pacing:stay
+	skill:beginner
+	finishedLevels:
+	sessionFinishedLevelCount:0
+}

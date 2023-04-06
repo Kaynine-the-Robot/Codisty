@@ -1,0 +1,16 @@
+// AI Pacing Settings
+// Default pacing template
+// Has a player name attatched
+// pacing can be one of: decrease, increase, stay which represent the difficulty change
+// Generally difficulty will follow this outline:
+// Beginner: Variables, Functions, Basic Coding(hello world example), loops,  data structures(Array, List, Linked List, Hashes/Dictionaries), IO, Reading Code and Predicting Output
+// Novice: Object-Oriented Programming, Classes, Objects, Methods, Attributes, Recursion, Polymorphism, Programming Practices(clean code, modularity), Version Control, Serialization, Testing, Compiled vs Interpreted, data structures (advanced theory)
+// Experienced: Proofs, Computational Complexity, Automata, Languages(regex, context-free), Assembly, Machine Code, Computer Parts, Architecture(i.e. cpu), Paradigms, DataBases, Refactoring, Pointers, Test-Driven Design, Singletons
+// Expert: Compilers, Algorithms, AI, Networks, Functional Programming, Procedural Programming, Logic Programming, Mathematical Programming, Reactive Programming, Reflection, UI/UX, Concurrent Programming(Multi-Threading, Race Conditions), Graphics
+// Master: Optimization, Metaprogramming, Category Theory, Distributed Computing, Event-Based Systems, Callback Functions & Higher Order Functions, Lambda Functions, Decorator Patterns, Covariance and Contravariance
+// In addition any particular topic can go up in dificulty if the problem is harder or made harder via time trials etc.
+{
+	name:test
+	player:test
+	pacing:5=increase,7=stay,15=increase-fast,17=decrease-fast,20=stay,25=decrease,27=increase-fast,30=stay,33=decrease,38=stay
+}

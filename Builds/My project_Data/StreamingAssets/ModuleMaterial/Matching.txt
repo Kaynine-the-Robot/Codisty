@@ -1,0 +1,138 @@
+// Matching minigames info list
+// Organized into a json-like format
+// _ in slot text represents the empty space where the correct word goes, will size to fit this correct word
+
+{
+    name:MATCHComputerScience1
+    difficulty:beginner
+    tags:computer science,ai,security,graphics,networks
+    questionText:Drag Matching Bars Into Slots
+    slotNum:4
+    answer0:AI
+    answer1:Security
+    answer2:Graphics
+    answer3:Machine Learning
+    answer4:Animation
+    answer5:Antivirus
+    answer6:Networking
+    answer7:OSI Model
+    correct:0-3,1-5,2-4,6-7
+    avgTime:35
+    URL:https://en.wikipedia.org/wiki/Outline_of_computer_science
+}
+
+{
+    name:MATCHPython1
+    difficulty:beginner
+    tags:python,IO,loops,list,data structures
+    questionText:Drag Matching Python Code Bars Into Slots
+    slotNum:3
+    answer0:Taking in Input
+    answer1:Loop
+    answer2:input("Type Input: ")
+    answer3:for x in Range(6):
+    answer4:List
+    answer5:animals = ["dog", "cat", "fish"]
+    correct:0-2,1-3,4-5
+    avgTime:35
+    URL:https://www.section.io/engineering-education/user-input-and-while-loops-in-python/
+}
+
+{
+    name:MATCHPython2
+    difficulty:beginner
+    tags:python,variables,programming practices
+    questionText:Drag Matching Python Variable Naming Bars Into Slots
+    slotNum:3
+    answer0:dog_name
+    answer1:count
+    answer2:is_valid
+    answer3:5
+    answer4:"Buddy"
+    answer5:True
+    correct:0-4,1-3,2-5
+    avgTime:35
+    URL:https://realpython.com/python-pep8/
+}
+
+{
+    name:MATCHPython3
+    difficulty:beginner
+    tags:python,variables,loops,list,data structures,pre-defined functions
+    questionText:Drag Matching Python Code into Slots
+    slotNum:4
+    answer0:x = 5
+    answer1:x = "Hello World"
+    answer2:x = ["cat","dog"]
+    answer3:x = true
+    answer4:if x > 3:
+    answer5:print(x)
+    answer6:y = x[0]
+    answer7:if x:
+    correct:0-4,1-5,2-6,3-7
+    avgTime:40
+    URL:https://docs.python.org/3/library/stdtypes.html
+}
+
+///////////////////
+// NOVICE SECTION
+///////////////////
+
+{
+    name:MATCHOOP1
+    difficulty:novice
+    tags:oop,list,data structures,variables
+    questionText:Drag Matching OOP Principles and examples into Slots
+    slotNum:4
+    answer0:Abstraction
+    answer1:Encapsulation
+    answer2:Inheritance
+    answer3:Polymorphism
+    answer4:Getters and Setters
+    answer5:Interface
+    answer6:Child Class
+    answer7:Overloading
+    correct:0-5,1-4,2-6,3-7
+    avgTime:45
+    URL:https://raygun.com/blog/oop-concepts-java/#:~:text=Abstraction%2C%20encapsulation%2C%20polymorphism%2C%20and,principles%20of%20object%2Doriented%20programming.
+}
+
+{
+    name:MATCHProgramming1
+    difficulty:novice
+    tags:functions,methods,attributes,oop,python
+    questionText:Drag Matching Concepts and Python Code
+    slotNum:3
+    answer0:Method
+    answer1:myMethod()
+    answer2:Attribute
+    answer3:buddy.myNum
+    answer4:buddy.myMethod()
+    answer5:Function
+    correct:0-4,1-5,2-3
+    avgTime:35
+    URL:https://www.codecademy.com/article/fwd-js-methods-functions
+}
+
+///////////////////////
+// EXPERIENCED SECTION
+///////////////////////
+
+{
+    name:MATCHComplexity
+    difficulty:experienced
+    tags:complexity,asymptotic notation,big o,little o,big omega,little omega
+    questionText:Drag Matching Bachmann-Landau Notation to Their Descriptions: f(n) = _(g(n))
+    slotNum:4
+    answer0:Small O
+    answer1:f is dominated by g asymptotically
+    answer2:Big O
+    answer3:f is bounded below by g asymptotically
+    answer4:Big Omega
+    answer5:f is bounded above by g asymptotically
+    answer6:Small Omega
+    answer7:f dominates g asymptotically
+    correct:0-1,2-3,4-5,6-7
+    avgTime:45
+    URL:https://en.wikipedia.org/wiki/Big_O_notation
+}

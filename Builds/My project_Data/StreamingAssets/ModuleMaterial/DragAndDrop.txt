@@ -1,0 +1,593 @@
+// Drag and Drop minigames info list
+// Organized into a json-like format
+// _ in slot text represents the empty space where the correct word goes, will size to fit this correct word
+// Master list of tags:
+// beginner, novice, experienced, expert, master, coding, print, helloworld, pre-defined functions, python, variables, addition, functions
+// loops, arrays, data structures, methods, linked lists, IO, hash table, encapsulation, abstraction, inheritance, polymorphism, classes, oop
+// turing, attributes, proofs, induction, strings, integers, floats, booleans, complexity, asymptotic notation, big o, java, static, parameters
+// c++, namespace, streams, import, types, operators, containers, input, output, files, computation, babbage, abbreviation, contradiction, direct proof
+// Master List of Levels
+// DADPython1, DADPython2, DADPython3, DADJava1, DADJava3, DADC++1, DADProgramming1, DADProgramming2, DADProgramming3, DADLoops1, DADLoops2, DADLoops3, DADLoops4, 
+// DADDataStructures1, DADDataStructures2, DADDataStructures3, DADIO1, DADIO2, DADHistory1, DADHistory2, DADOOP1, DADOOP2, DADOOP3, DADOOP4, DADOOP5, 
+// DADClass1, DADClass2, DADClass3, DADRecursion1, DADRecursion2, DADComplexity1, DADProofs1
+
+{
+    name:DADPython1
+    difficulty:beginner
+    tags:coding,print,helloworld,pre-defined functions,python
+    questionText:Drag Correct Python Code Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:write
+    answer2:print
+    answer3:show
+    correct:2
+    slotText:_("Hello World")
+    avgTime:15
+    URL:https://www.learnpython.org/en/Hello%2C_World%21
+}
+
+{
+    name:DADJava1
+    difficulty:beginner
+    tags:coding,print,helloworld,pre-defined functions,java,class,static
+    questionText:Drag Correct Java Code Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:System.print
+    answer2:System.out.println
+    answer3:print
+    correct:2
+    slotText:class HelloWorld {\n    public static void main(String args[]) {\n        _("Hello World");\n    }\n}
+    avgTime:15
+    URL:https://www.geeksforgeeks.org/java-hello-world-program/
+}
+
+{
+    name:DADC++1
+    difficulty:beginner
+    tags:coding,print,helloworld,pre-defined functions,c++,namespace,streams,import
+    questionText:Drag Correct c++ Code Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:cin >>
+    answer2:print
+    answer3:cout <<
+    correct:3
+    slotText:#include <iostream>\nusing namespace std;\nint main() {\n    _ "Hello World";\n    return 0\n}
+    avgTime:15
+    URL:https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/
+}
+
+{
+    name:DADProgramming1
+    difficulty:beginner
+    tags:coding,variables,containers
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:5
+    answer1:box
+    answer2:container
+    answer3:account
+    answer4:data
+    answer5:variable
+    correct:5
+    slotText:A _ stores data in a name which can be used and manipulated in code
+    avgTime:25
+    URL:https://en.wikipedia.org/wiki/Variable_(computer_science)
+}
+
+{
+    name:DADPython2
+    difficulty:beginner
+    tags:coding,python,addition,variables,functions,parameters
+    questionText:Drag Correct Python Code to Make a Function that Adds Two Numbers Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:func1
+    answer2:func foo
+    answer3:def addTwo
+    answer4:show
+    correct:3
+    slotText:_(x,y):\n    return x + y
+    avgTime:20
+    URL:https://www.w3schools.com/python/python_functions.asp
+}
+
+{
+    name:DADPython3
+    difficulty:beginner
+    tags:coding,variables,addition,python
+    questionText:Drag Correct Python Code Into The Blank Space Below, make the total equal 7
+    slotNum:1
+    answerNum:4
+    answer1:w
+    answer2:x
+    answer3:y
+    answer4:z
+    correct:4
+    slotText:w=5\nx=2\ny=4\nz=1\nw+z+_=7
+    avgTime:28
+    URL:https://www.learnpython.org/en/Variables_and_Types
+}
+
+{
+    name:DADJava2
+    difficulty:beginner
+    tags:coding,variables,loops,addition,operators
+    questionText:Drag Correct Java Code Into The Blank Space Below, make the total equal 21
+    slotNum:1
+    answerNum:4
+    answer1:3
+    answer2:4
+    answer3:5
+    answer4:6
+    correct:4
+    slotText:int result = 0;for(int i = 0; i <= _; i++) {\n    result += i;\n}
+    avgTime:35
+    URL:https://www.digitalocean.com/community/tutorials/addition-assignment-operator-in-java
+}
+
+{
+    name:DADJava3
+    difficulty:beginner
+    tags:coding,variables,addition,types,java
+    questionText:Drag Correct Java Code Into The Blank Space Below, make the total equal 8
+    slotNum:1
+    answerNum:4
+    answer1:w
+    answer2:x
+    answer3:y
+    answer4:z
+    correct:2
+    slotText:int w=5;\nint x=2;\nint y=4;\nint z=1;\nx+y+_=8
+    avgTime:28
+    URL:https://www.w3schools.com/java/java_data_types.asp
+}
+
+{
+    name:DADProgramming2
+    difficulty:beginner
+    tags:coding,functions,methods
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:method
+    answer2:function
+    answer3:invocation
+    correct:2
+    slotText:foo("bar") is the use of a _?
+    avgTime:18
+    wrongHelp:(1-A method is a set of instructions associated with an object)
+}
+
+{
+    name:DADLoops1
+    difficulty:beginner
+    tags:loops
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:multiple lines
+    answer2:a loop
+    answer3:repeat
+    correct:2
+    slotText:If you want to perform a similar set of operations repeatedly you would most likely use _
+    avgTime:22
+}
+
+{
+    name:DADLoops2
+    difficulty:beginner
+    tags:loops,addition,python,coding
+    questionText:Drag Correct Block Into The Blank Space Below, What Number is Printed?
+    slotNum:1
+    answerNum:4
+    answer1:4
+    answer2:5
+    answer3:6
+    answer4:7
+    correct:2
+    slotText:x=1\nfor i in range(4):\n    x = x + 1\nprint(x)\n\n_
+    avgTime:30
+}
+
+{
+    name:DADLoops3
+    difficulty:beginner
+    tags:loops,addition,python,coding
+    questionText:Drag Correct Block Into The Blank Space Below, What Number is Printed?
+    slotNum:1
+    answerNum:4
+    answer1:4
+    answer2:5
+    answer3:6
+    answer4:7
+    correct:4
+    slotText:x=1\nfor i in range(4):\n    x = x + i\nprint(x)\n\n_
+    avgTime:35
+}
+
+{
+    name:DADLoops4
+    difficulty:beginner
+    tags:loops,python
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:repeat and goto
+    answer2:foreach and repeat
+    answer3:for and while
+    correct:3
+    slotText:In Python there are two types of loops: _
+    avgTime:22
+}
+
+{
+    name:DADDataStructures1
+    difficulty:beginner
+    tags:arrays,data structures
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Linked List
+    answer2:Queue
+    answer3:Array
+    correct:3
+    slotText:A collection of data that is stored in contiguous memory locations is called a _
+    avgTime:22
+}
+
+{
+    name:DADDataStructures2
+    difficulty:beginner
+    tags:linked lists,data structures
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Linked List
+    answer2:Queue
+    answer3:Array
+    correct:1
+    slotText:A collection of data that is stored in non-contiguous memory locations is called a _
+    avgTime:22
+}
+
+{
+    name:DADDataStructures3
+    difficulty:beginner
+    tags:hash table,data structures
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Tuple
+    answer2:Hash Table
+    answer3:Array
+    correct:2
+    slotText:A collection of data that is stored using keys-values pairs via a hash function is a _
+    avgTime:22
+}
+
+{
+    name:DADIO1
+    difficulty:beginner
+    tags:IO,python,input
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:type()
+    answer2:input("Enter Input: ")
+    answer3:take_input("Enter Input: ")
+    answer4:take_input()
+    correct:2
+    slotText:A simple way to take in user input in Python is:\n_
+    avgTime:28
+}
+
+{
+    name:DADIO2
+    difficulty:beginner
+    tags:IO,python,files
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:open("myfile.txt")
+    answer2:file("myfile.txt")
+    answer3:text("myfile.txt")
+    correct:1
+    slotText:A simple way to open a text file for reading in Python is:\n_
+    avgTime:22
+}
+
+{
+    name:DADHistory1
+    difficulty:beginner
+    tags:history,computation,babbage,turing
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Charles Babbage
+    answer2:Alan Turing
+    answer3:Ada Lovelace
+    answer4:John von Neumann
+    correct:1
+    slotText:_ created the first "true" representation of a modern computer, the Analytical Engine
+    avgTime:25
+}
+
+///////////////////
+// NOVICE SECTION
+///////////////////
+
+
+{
+    name:DADProgramming3
+    difficulty:novice
+    tags:coding,methods,classes,functions
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:method
+    answer2:function
+    answer3:invocation
+    correct:1
+    slotText:foo.bar("Answer") is the use of a _?
+    avgTime:18
+    wrongHelp:(2-A function is a set of instructions not associated with anything)
+}
+
+{
+    name:DADOOP1
+    difficulty:novice
+    tags:oop,abbreviation
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Object-Ordered Programming
+    answer2:Object-Oriented Programming
+    answer3:Object-Oriented Procedure
+    correct:2
+    slotText:OOP stands for: _
+    avgTime:18
+}
+
+{
+    name:DADOOP2
+    difficulty:novice
+    tags:oop,abstraction,encapsulation,polymorphism,inheritance
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Abstraction
+    answer2:Inheritance
+    answer3:Encapsulation
+    answer4:Polymorphism
+    correct:3
+    slotText:_ is the OOP principle that all important & relevant information is stored inside an object with only select information exposed
+    avgTime:30
+}
+
+{
+    name:DADOOP3
+    difficulty:novice
+    tags:oop,abstraction,encapsulation,polymorphism,inheritance
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Abstraction
+    answer2:Inheritance
+    answer3:Encapsulation
+    answer4:Polymorphism
+    correct:1
+    slotText:The OOP principle of hiding information a user does not need to know and only exposing relevant details is _
+    avgTime:30
+}
+
+{
+    name:DADOOP4
+    difficulty:novice
+    tags:oop,abstraction,encapsulation,polymorphism,inheritance
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Abstraction
+    answer2:Inheritance
+    answer3:Encapsulation
+    answer4:Polymorphism
+    correct:4
+    slotText:The OOP principle of providing different implementations through one interface is _
+    avgTime:30
+}
+
+{
+    name:DADOOP5
+    difficulty:novice
+    tags:oop,abstraction,encapsulation,polymorphism,inheritance
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Abstraction
+    answer2:Inheritance
+    answer3:Encapsulation
+    answer4:Polymorphism
+    correct:2
+    slotText:_ is the OOP principle of relationships between objects and classes reusing code from other other classes
+    avgTime:30
+}
+
+{
+    name:DADClass1
+    difficulty:novice
+    tags:oop,classes,objects,coding
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Class
+    answer2:Object
+    answer3:Animal
+    correct:1
+    slotText:class Dog:\n    def bark():\n        print("bark")\nbuddy = Dog()\nIn this example a Dog is a _
+    avgTime:35
+}
+
+{
+    name:DADClass2
+    difficulty:novice
+    tags:oop,classes,objects,coding
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Class
+    answer2:Object
+    answer3:Animal
+    correct:2
+    slotText:class Dog:\n    def bark():\n        print("bark")\nbuddy = Dog()\nIn this example buddy is a _
+    avgTime:35
+}
+
+{
+    name:DADClass3
+    difficulty:novice
+    tags:oop,classes,attributes,coding
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Variable
+    answer2:Attribute
+    answer3:Value
+    correct:2
+    slotText:class Dog:\n    age = 5\n    def bark():\n        print("bark")\nbuddy = Dog()\nIn this example, age is a _
+    avgTime:35
+}
+
+{
+    name:DADHistory2
+    difficulty:beginner
+    tags:history,turing
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Charles Babbage
+    answer2:Alan Turing
+    answer3:Ada Lovelace
+    answer4:John von Neumann
+    correct:2
+    slotText:Often called the father of modern computer science, _ helped the British government in WWII in the area of cryptography
+    avgTime:25
+}
+
+{
+    name:DADRecursion1
+    difficulty:novice
+    tags:recursion
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:4
+    answer1:Algorithm
+    answer2:System
+    answer3:Iterator
+    answer4:Recursion
+    correct:4
+    slotText:Often used as an alternative to loops, _ is a method of solving computational problems with smaller instances of the same problem
+    avgTime:25
+}
+
+{
+    name:DADRecursion2
+    difficulty:novice
+    tags:recursion,coding
+    questionText:Drag Correct Block Into The Blank Space Below to Finish This Code for Calculating a Factorial
+    slotNum:1
+    answerNum:3
+    answer1:num
+    answer2:factorial(num - 1)
+    answer3:factorial(num + 1)
+    correct:2
+    slotText:def factorial(num):\n    if(num == 1):\n        return num\n    else:\n        return _ * num
+    avgTime:35
+}
+
+///////////////////////
+// EXPERIENCED SECTION
+///////////////////////
+
+{
+    name:DADComplexity1
+    difficulty:experienced
+    tags:complexity,asymptotic notation,big o,little o
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Big-O notation
+    answer2:Big-Omega notation
+    answer3:Big-Theta notation
+    correct:1
+    slotText:Typically used in industry the most, to asymptotically describe the upper bound running time of an algorithm one would typically use _
+    avgTime:35
+    URL:https://en.wikipedia.org/wiki/Big_O_notation
+}
+
+{
+    name:DADComplexity2
+    difficulty:experienced
+    tags:complexity,asymptotic notation,little o,big o
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Big-O notation
+    answer2:Small-O notation
+    answer3:Big-Theta notation
+    correct:2
+    slotText:To asymptotically describe one function being dominated by another one could use _
+    avgTime:35
+    wrongHelp:(1-Big O would describe a function being bounded but not dominated by another function)
+    URL:https://en.wikipedia.org/wiki/Big_O_notation
+}
+
+{
+    name:DADProofs1
+    difficulty:experienced
+    tags:proofs,induction,contradiction,direct proof
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Direct Proof
+    answer2:Proof By Contradiction
+    answer3:Proof By Induction
+    correct:3
+    slotText:_ is a method to prove a statment is true for every natural number (n) by using a base case and step to prove that for a given case n = k, n = k + 1 also holds
+    avgTime:35
+    URL:https://en.wikipedia.org/wiki/Mathematical_induction
+}
+
+{
+    name:DADProofs2
+    difficulty:experienced
+    tags:proofs,induction,contradiction,direct proof
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Direct Proof
+    answer2:Proof By Contradiction
+    answer3:Proof By Induction
+    correct:2
+    slotText:_ is a method to prove a statment's validity by assuming the proposition to be false, leading to a contradiction
+    avgTime:35
+    URL:https://en.wikipedia.org/wiki/Proof_by_contradiction
+}
+
+{
+    name:DADProofs3
+    difficulty:experienced
+    tags:proofs,induction,contradiction,direct proof
+    questionText:Drag Correct Block Into The Blank Space Below
+    slotNum:1
+    answerNum:3
+    answer1:Direct Proof
+    answer2:Proof By Contradiction
+    answer3:Proof By Induction
+    correct:1
+    slotText:_ is a method to prove a statment's validity by a sequence of statements which are given or deduced from previous statements where the last statement is the conclusion to be proven.
+    avgTime:35
+    URL:https://www.whitman.edu/mathematics/higher_math_online/section02.01.html#:~:text=A%20direct%20proof%20is%20a,the%20conclusion%20to%20be%20proved.
+}
